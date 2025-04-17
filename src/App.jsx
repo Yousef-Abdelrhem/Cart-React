@@ -51,14 +51,14 @@ function App() {
   return (
     <>
       <NavBar counter={counter} />
-      <Items
+
+      <Cart
         items={items}
         incrementCount={incrementCount}
         minusCount={minusCount}
         deleteItem={deleteItem}
         reset={reset}
       />
-      {/* <Cart  /> */}
     </>
   );
 }
